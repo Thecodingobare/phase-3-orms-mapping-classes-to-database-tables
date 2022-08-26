@@ -10,3 +10,4 @@ DB = { conn: SQLite3::Database.new("db/music.db") }
 Song.create_table
 
 song = Song.create(name: "Hello", album: "25")
+song = Song.create(name: "Hello", album: "25")
